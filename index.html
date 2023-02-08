@@ -18,13 +18,19 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.bgimg-2 {
+     
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url("https://t3.ftcdn.net/jpg/01/19/97/46/360_F_119974663_uhDXuKYiEcbLStbpcrWQsVUjI7mF0yck.jpg");
@@ -34,7 +40,7 @@ body, html {
 /* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url(FrankJedi.png);
-  min-height: 400px;
+  min-height: 50%;
 }
 
 /* Third image (Contact) */
@@ -93,10 +99,12 @@ body, html {
         <a href="https://github.com/Fussyotter/portfolio">My github.</a>
     </div>
     <div class="bgimg-2 w3-display-container w3-hover-opacity-min">
-        <div class="w3-display-bottom-middle"></div>
+        <div class="w3-display-middle"></div>
+        <span class="w3-xxlarge w3-text-black w3-wide">Placeholder image of my dog</span>
+        
     </div>
     <div class="w3-content w3-container">
-        <h3 class="w3-center">About me </h3>
+        <h3 class="w3-center"><b>About me</b></h3>
         <p>lorem ipsum dolor sit amet. At neque ipsum et unde molestiae et enim veniam et quia iure ad ipsa galisum eos quos fugiat
         vel corporis adipisci. Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
         delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
@@ -104,6 +112,14 @@ body, html {
         magnam officiis.</p>
                             
     </div>
+    <div class="w3-row"> <!-- the m6 refers to value of column out of 12. remember. m after col in w3 sets value of the column and means its optimized for medium screens. s is small screens, l is big.-->
+        <div class="w3-col m6 w3-center">
+        <p>testestsetstst</p>
+        <img src= "FrankJedi.png" class="w3-round w3-image" width="150"height="100">
+    </div>
+    <p>Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
+    delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
+    repellat voluptates!</p>
     <script src="/app.js" charset="utf-8"></script>
 
 </body>
