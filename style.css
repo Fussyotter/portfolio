@@ -1,0 +1,57 @@
+#modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    /*ZINDEX PUTS MODAL IN FRONT OF TEXT*/
+    overflow: auto;
+    display:none;
+}
+#modal_text{
+    background-color: white;
+    height: 350px;
+    width: 550px;
+    border-radius: 2px;
+    margin: 150px auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 5%;
+    line-height: 120%;
+}
+#modal_footer {
+    text-align:right;
+}
+#modal_top {
+    padding-bottom: 15px;
+}
+/* li {
+    width: 33%;
+} */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("https://t3.ftcdn.net/jpg/01/19/97/46/360_F_119974663_uhDXuKYiEcbLStbpcrWQsVUjI7mF0yck.jpg");
+    min-height: 50%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/w3images/parallax2.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min
+}

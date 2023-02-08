@@ -4,10 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/w3images/parallax1.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+    </style>
+
     <title>Document</title>
 </head>
-<body>
-    <h1>etestestsetsetst</h1>
-    
+    <body>
+<!-- <div class="bgimg-2 w3-display-container" id="home"></div> -->
+<div class="w3-display-middle" style="white-space:nowrap;">
+<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Isaac <span
+    class="w3-hide-small">A</span> Anderson</span>
+</div>
+</div>
+
+
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-button">Open Modal</button>
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-opacity">
+            <header class="w3-container w3-teal">
+            <span onclick="document.getElementById('id01').style.display='none'"
+                        class="w3-button w3-display-topright">&times;</span>
+                        <h2>Another modal test</h2>
+            </header>
+            <p>Lorem ipsum dolor sit amet. At neque ipsum et unde molestiae et enim veniam et quia iure ad ipsa galisum eos quos fugiat
+            vel corporis adipisci. Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
+            delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
+            repellat voluptates! Id quidem aperiam ut animi eveniet est quam molestiae est quidem consequatur est quia voluptate id
+            magnam officiis.
+        </div>
+        </div>
+    </p>
+    <h1>Test Placeholder</h1>
+    <nav class="mainNav">
+        <!-- <button class="nav_btn">More</button> -->
+        <!-- <div class="nav_wrapper"> -->
+            <ul class="w3-ul" >
+                <li class="w3-hover-red" id="resumeLink" style="display:inline-block"> Resume</li>
+                <li class="w3-hover-pale-red" id="gitHubLink"style="display:inline-block"> GitHub </li>
+                <li class="w3-hover-deep-orange"id="contact"style="display:inline-block">Contact</li>
+            </ul>
+        </div>
+    </nav>
+<div id="resumeLoad" style="display:none;">
+<p>WHOOAAAAAAA </p>
+</div>
+<script src="/app.js" charset="utf-8"></script>
+
 </body>
 </html>
