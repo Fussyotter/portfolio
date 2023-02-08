@@ -35,4 +35,13 @@ $(() => {
 			resumeLoad.style.display = 'block';
 		}
 	});
+	const gitHubLink = document.getElementById('gitHubLink');
+	const gitHubLoad = document.getElementById('gitHubLoad');
+	gitHubLink.addEventListener('click', function () {
+		if (gitHubLoad.style.display === 'block') {
+			gitHubLoad.style.display = 'none';
+		} else {
+			gitHubLoad.style.display = 'block';
+		}
+	});
 });

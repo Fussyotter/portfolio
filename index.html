@@ -9,7 +9,8 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
-        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+    
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
   color: #777;
@@ -26,13 +27,13 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
-  min-height: 100%;
+  background-image: url("https://t3.ftcdn.net/jpg/01/19/97/46/360_F_119974663_uhDXuKYiEcbLStbpcrWQsVUjI7mF0yck.jpg");
+  min-height: 50%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
+  background-image: url(FrankJedi.png);
   min-height: 400px;
 }
 
@@ -52,50 +53,58 @@ body, html {
     min-height: 400px;
   }
 }
-    </style>
+</style>
 
-    <title>Document</title>
+<title>Document</title>
 </head>
-    <body>
-<!-- <div class="bgimg-2 w3-display-container" id="home"></div> -->
+<body>
+<div class="bgimg-1 w3-display-container" id="home"></div>
 <div class="w3-display-middle" style="white-space:nowrap;">
-<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Isaac <span
-    class="w3-hide-small">A</span> Anderson</span>
+<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Isaac <span class="w3-hide-small">A</span> Anderson</span>
 </div>
 </div>
-
-
 <button onclick="document.getElementById('id01').style.display='block'" class="w3-button">Open Modal</button>
     <div id="id01" class="w3-modal">
         <div class="w3-modal-content w3-animate-opacity">
             <header class="w3-container w3-teal">
-            <span onclick="document.getElementById('id01').style.display='none'"
+                <span onclick="document.getElementById('id01').style.display='none'"
                         class="w3-button w3-display-topright">&times;</span>
-                        <h2>Another modal test</h2>
-            </header>
-            <p>Lorem ipsum dolor sit amet. At neque ipsum et unde molestiae et enim veniam et quia iure ad ipsa galisum eos quos fugiat
-            vel corporis adipisci. Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
-            delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
-            repellat voluptates! Id quidem aperiam ut animi eveniet est quam molestiae est quidem consequatur est quia voluptate id
-            magnam officiis.
-        </div>
-        </div>
-    </p>
-    <h1>Test Placeholder</h1>
-    <nav class="mainNav">
-        <!-- <button class="nav_btn">More</button> -->
-        <!-- <div class="nav_wrapper"> -->
-            <ul class="w3-ul" >
-                <li class="w3-hover-red" id="resumeLink" style="display:inline-block"> Resume</li>
-                <li class="w3-hover-pale-red" id="gitHubLink"style="display:inline-block"> GitHub </li>
-                <li class="w3-hover-deep-orange"id="contact"style="display:inline-block">Contact</li>
-            </ul>
-        </div>
+                            <h2>Another modal test</h2>
+                </header>
+                <p>Lorem ipsum dolor sit amet. At neque ipsum et unde molestiae et enim veniam et quia iure ad ipsa galisum eos quos fugiat
+                vel corporis adipisci. Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
+                delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
+                repellat voluptates! Id quidem aperiam ut animi eveniet est quam molestiae est quidem consequatur est quia voluptate id
+                magnam officiis.
+                </div>
+                </div>
+                </p>
+    <ul class="w3-ul" >
+        <li class="w3-hover-red" id="resumeLink" style="display:inline-block"> Resume</li>
+        <li class="w3-hover-pale-red" id="gitHubLink"style="display:inline-block"> GitHub </li>
+        <li class="w3-hover-deep-orange" id="contact" style="display:inline-block"> Contact </li>
+    </ul>
+    </div>
     </nav>
-<div id="resumeLoad" style="display:none;">
-<p>WHOOAAAAAAA </p>
-</div>
-<script src="/app.js" charset="utf-8"></script>
+    <div id="resumeLoad" style="display:none;">
+        <p>WHOOAAAAAAA </p>
+    </div>
+    <div id="gitHubLoad" style="display:none;">
+        <a href="https://github.com/Fussyotter/portfolio">My github.</a>
+    </div>
+    <div class="bgimg-2 w3-display-container w3-hover-opacity-min">
+        <div class="w3-display-bottom-middle"></div>
+    </div>
+    <div class="w3-content w3-container">
+        <h3 class="w3-center">About me </h3>
+        <p>lorem ipsum dolor sit amet. At neque ipsum et unde molestiae et enim veniam et quia iure ad ipsa galisum eos quos fugiat
+        vel corporis adipisci. Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
+        delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
+        repellat voluptates! Id quidem aperiam ut animi eveniet est quam molestiae est quidem consequatur est quia voluptate id
+        magnam officiis.</p>
+                            
+    </div>
+    <script src="/app.js" charset="utf-8"></script>
 
 </body>
 </html>
