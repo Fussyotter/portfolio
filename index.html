@@ -29,25 +29,25 @@ body, html {
 .bgimg-2 {
      
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* First image (Logo. Full height) */
+
 .bgimg-1 {
   background-image: url(gallatin.jpg);
   min-height: 50%;
 }
 
-/* Second image (Portfolio) */
+
 .bgimg-2 {
-  background-image: url(FrankJedi.png);
-  min-height: 50%;
+  background-image: url(corgiskyline.png);
+  min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
+  background-image: url(corgitwo.png);
   min-height: 400px;
 }
 
@@ -160,40 +160,49 @@ body, html {
                             
     </div>
     <div class="w3-row"> <!-- the m6 refers to value of column out of 12. remember. m after col in w3 sets value of the column and means its optimized for medium screens. s is small screens, l is big.-->
-        <div class="w3-col m6 w3-center w3-padding-large">
+        <div class="w3-col m4 w3-center w3-padding-large">
         <img src= "suitFlower.jpg" class="w3-round w3-image w3-opacity w3-sepia w3-center" width="250"height="200">
+ 
+        </div>
+        <div class="w3-col m8 w3-padding-large">
+          <div class="w3-container w3-dark-grey"></div>
+          
+          <p>Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
+            delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
+            repellat voluptates!
+          </p>
+         <div class="w3-container w3-dark-grey"></div>
+          <!-- <img src="bush.jpg" class="w3-round w3-image w3-opacity w3-sepia w3-center w3-padding-32" width="400" height="150"> --> 
     </div>
-    <div class="w3-col m6 w3-padding-large">
-      <div class="w3-container w3-dark-grey"></div>
-        
-     <p>Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
-    delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
-    repellat voluptates!
-    </p>
-    <div class="w3-container w3-dark-grey"></div>
     </div>
-    <script src="/app.js" charset="utf-8"></script>
-    <!-- <div class="w3-dark-grey">
+  <div class="bgimg-3 w3-display-container w3-hover-opacity-min">
+        <div class="w3-display-topleft"></div>
+        <span class="w3-xxlarge w3-text-black w3-display-topleft w3-wide">Contact Me</span>
+    <div class="w3-col m4 w3-center w3-padding-large">
+      <!-- <div class="w3-dark-grey">
         <div class="w3-container w3-padding-small w3-light-grey w3-center" style="width:50%"></div>
-
-        </div> -->
-    <!-- 2/9/23 START HERE WORKING ON CONTACT FORM FINISH-->
-      <div class= "w3-content w3-container w3-padding-64"id="contactJump">
-          <h3 class="w3-center">Contact</h3> 
-        </div> 
+        
+      </div> -->
+      <!-- 2/9/23 START HERE WORKING ON CONTACT FORM FINISH-->
+      <div class= "w3-content w3-container w3-padding-64">
+        <div class="w3-xlarge w3-section w3-center" id="contactJump">
+          <a href="https://www.linkedin.com/in/isaac-a-anderson/">
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <div class="w3-half">
+          <input class="w3-input w3-border" type="test">
+          <input class="w3-input w3-border" type="test">
+          <input class="w3-input w3-border" type="test">
+        </div>
+          </a>
+        </div>
+      </div>
+      
+  
         
         
-        <div class="w3-half w3-right">
-            <input class="w3-input w3-border" type="test">
-            <input class="w3-input w3-border" type="test">
-            <input class="w3-input w3-border" type="test">
-        </div>
-        </div>
-        <div class="w3-xlarge w3-section w3-center">
-        <a href="https://www.linkedin.com/in/isaac-a-anderson/">
-          <i class="fa fa-linkedin w3-hover-opacity"></i>
-        </a>
-        </div>
         
-</body>
+        
+      
+      <script src="/app.js" charset="utf-8"></script>
+    </body>
 </html>

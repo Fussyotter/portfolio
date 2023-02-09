@@ -51,10 +51,10 @@ $(() => {
 	const contact = document.getElementById('contact');
 	const contactJump = document.getElementById('contactJump');
 	contact.addEventListener('click', () => {
-		window.scrollTo({ 
-            top:contactJump.offsetTop,
-            behavior:"smooth",
-        })
+		window.scrollTo({
+			top: document.body.scrollHeight,
+			behavior: 'smooth',
+		});
 	});
 	// const linkedIn = document.getElementsByClassName("fa fa-linkedin w3-hover-opacity")
 	// linkedIn.addEventListener('click',() =>)
