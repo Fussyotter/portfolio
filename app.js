@@ -44,4 +44,12 @@ $(() => {
 			gitHubLoad.style.display = 'block';
 		}
 	});
+	const contact = document.getElementById('contact');
+	const contactJump = document.getElementById('contactJump');
+	contact.addEventListener('click', () => {
+		window.scrollTo({ 
+            top:contactJump.offsetTop,
+            behavior:"smooth",
+        })
+	});
 });
