@@ -8,6 +8,8 @@
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
     
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
@@ -92,9 +94,22 @@ body, html {
     </ul>
     </div>
     </nav>
-    <div id="resumeLoad" style="display:none;">
-        <p>WHOOAAAAAAA </p>
+    <div id="resumeLoad" class="w3-modal">
+      <div class="w3-modal-content">
+        <header class="w3-container w3-red">
+          <span onclick="document.getElementById('id01').style.display='none'"></span>
+          <h2> Resume </h2>
+        </header>
+        <div class="w3-container">
+          <p>
+
+          </p>
+        </div>
+      </div>
     </div>
+    <!-- <div id="resumeLoad" style="display:none;">
+        <p>WHOOAAAAAAA </p>
+    </div> -->
     <div id="gitHubLoad" style="display:none;">
         <a href="https://github.com/Fussyotter/portfolio">My github.</a>
     </div>
@@ -126,11 +141,9 @@ body, html {
 
         </div> -->
     <!-- 2/9/23 START HERE WORKING ON CONTACT FORM FINISH-->
-        <div class= "w3-content w3-container w3-padding-64" id="contactJump">
+      <div class= "w3-content w3-container w3-padding-64"id="contactJump">
           <h3 class="w3-center">Contact</h3> 
-          <div class="w3-col m4 w3-container">
-            <p> testestsetst</p>
-          </div> 
+        </div> 
         
         
         <div class="w3-half w3-right">
@@ -138,6 +151,11 @@ body, html {
             <input class="w3-input w3-border" type="test">
             <input class="w3-input w3-border" type="test">
         </div>
+        </div>
+        <div class="w3-xlarge w3-section w3-center">
+        <a href="https://www.linkedin.com/in/isaac-a-anderson/">
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </a>
         </div>
         
 </body>

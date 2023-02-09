@@ -17,11 +17,15 @@ $(() => {
 	// $openBtn.on('click', openModal);
 	// $closeBtn.on('click', closeModal);
 	const modal = document.getElementById('id01');
+	const resumeClose = document.getElementById('resumeLoad');
 	window.onclick = function (event) {
 		if (event.target == modal) {
 			modal.style.display = 'none';
+		} else if (event.target == resumeClose) {
+			resumeClose.style.display = 'none';
 		}
 	};
+
 	document.getElementById('resumeLink').style.width = '32.9%';
 	document.getElementById('gitHubLink').style.width = '32.9%';
 	document.getElementById('contact').style.width = '32.9%';
@@ -52,4 +56,6 @@ $(() => {
             behavior:"smooth",
         })
 	});
+	// const linkedIn = document.getElementsByClassName("fa fa-linkedin w3-hover-opacity")
+	// linkedIn.addEventListener('click',() =>)
 });
