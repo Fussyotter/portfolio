@@ -1,0 +1,43 @@
+body {
+    top: 0;
+    left: 0;
+    background-image: url(https://images.pexels.com/photos/1001676/pexels-photo-1001676.jpeg?cs=srgb&dl=pexels-kellie-churchman-1001676.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;;
+    text-transform: lowercase;
+    color: white;
+    /* text-shadow: 2px 2px #000000; */
+}
+    	
+
+.player-info {
+        font-family: "Montserrat", impact;
+            font-weight: 600;
+            font-size: 2em;
+            margin-top: -1%;
+            color: #0a0c0c;
+            text-shadow: 1px 1px #f2cd99;
+            letter-spacing: 2p
+
+
+}
+
+.toolsList {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: red;
+    text-shadow: 1px 1px black;
+    
+}
+
+.reward {
+    font-family: "Montserrat", impact;
+    height: 50vh;
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: -1%;
+    color: #4caaa8;
+    text-shadow: 1px 1px #f2cd99;
+    letter-spacing: 2px;
+    /* word-wrap: */
+}

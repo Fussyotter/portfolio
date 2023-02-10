@@ -58,6 +58,14 @@ $(() => {
 	});
 	const linkedinIcon = document.querySelector('.fa-linkedin');
 	linkedinIcon.style.color = 'red';
+	// contact.addEventListener('click', () => {
+	// 	let target=document.getElementById('aboutMe')
+	// 	window.scrollTo({
+	// 		top: target.offsetTop,
+	// 		behavior: 'smooth',
+	// 	});
+	// });
+
 	// const linkedIn = document.getElementsByClassName("fa fa-linkedin w3-hover-opacity")
 	// linkedIn.addEventListener('click',() =>)
 	const contactIcons = document.querySelectorAll('#contactIcon');
