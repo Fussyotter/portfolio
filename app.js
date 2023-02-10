@@ -56,6 +56,19 @@ $(() => {
 			behavior: 'smooth',
 		});
 	});
+	const linkedinIcon = document.querySelector('.fa-linkedin');
+	linkedinIcon.style.color = 'red';
 	// const linkedIn = document.getElementsByClassName("fa fa-linkedin w3-hover-opacity")
 	// linkedIn.addEventListener('click',() =>)
+	const contactIcons = document.querySelectorAll('#contactIcon');
+	for (let i = 0; i < contactIcons.length; i++) {
+		contactIcons[i].style.color = 'red';
+	}
+	const img = document.querySelector('img');
+	const content = document.querySelector('#aboutMe');
+
+	img.addEventListener('click', function () {
+		content.innerHTML =
+			'Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odi eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel';
+	});
 });

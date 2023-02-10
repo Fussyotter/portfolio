@@ -10,6 +10,7 @@
     overflow: auto;
     display:none;
 }
+
 #modal_text{
     background-color: white;
     height: 350px;
@@ -37,4 +38,3 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-

@@ -58,17 +58,19 @@ body, html {
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
-    min-height: 400px;
+    min-height: 300px;
   }
 }
+
+
 </style>
 
 <title>Document</title>
 </head>
 <body>
 <div class="bgimg-1 w3-display-container" id="home"></div>
-<div class="w3-display-middle w3-animate-duration-1 w3-animate-opacity" style="white-space:nowrap;">
-<span class="w3-center w3-padding-large w3-round w3-dark-grey w3-xlarge w3-wide w3-animate-opacity">Isaac <span class="w3-hide-small">A</span> Anderson</span>
+<div class="w3-display-middle w3-mobile w3-animate-duration-1 w3-animate-opacity" style="white-space:nowrap;"id="name">
+<span class="w3-center  w3-padding-large w3-round w3-dark-grey w3-xlarge w3-wide w3-animate-opacity">Isaac <span class="w3-hide-small">A</span> Anderson</span>
 </div>
 </div>
 <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-display-topleft">Open Modal</button>
@@ -150,51 +152,132 @@ body, html {
         <span class="w3-xxlarge w3-text-black w3-wide">Placeholder image of my dog</span>
         
     </div>
-    <div class="w3-content w3-container">
-        <h3 class="w3-center"><b>Dog</b></h3>
-        <p>lorem ipsum dolor sit amet. At neque ipsum et unde molestiae et enim veniam et quia iure ad ipsa galisum eos quos fugiat
-        vel corporis adipisci. Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
-        delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
-        repellat voluptates! Id quidem aperiam ut animi eveniet est quam molestiae est quidem consequatur est quia voluptate id
-        magnam officiis.</p>
+
+    <div class="w3-content w3-container w3-padding-large">
+        <!-- <h3 class="w3-center w3-padding-large"><b>Skills</b></h3> -->
+        <!-- <div class="w3-container w3-dark-grey"></div> -->
+        <div class="w3-container w3-dark-grey w3-hover-opacity">
+          <div class="w3-third">
+          <div class="w3-card w3-container">
+          <h3>Skills</h3>
+          <i class="fa fa-desktop w3-margin-bottom" style="font-size:30px"></i>
+          <p>Built-in responsiveness</p>
+          <p>Mobile first fluid grid</p>
+          <p>Fits any screen sizes</p>
+          <p>PC Tablet and Mobile</p>
+          </div>
+          </div>
+          <div class="w3-third">
+          <div class="w3-card w3-container">
+            <h3>Skills</h3>
+            <i class="fa fa-desktop w3-margin-bottom" style="font-size:30px"></i>
+            <p>Built-in responsiveness</p>
+            <p>Mobile first fluid grid</p>
+            <p>Fits any screen sizes</p>
+            <p>PC Tablet and Mobile</p>
+          </div>
+          </div>
+          <div class="w3-third">
+            <div class="w3-card w3-container">
+              <h3>Skills</h3>
+              <i class="fa fa-desktop w3-margin-bottom" style="font-size:30px"></i>
+              <p>Built-in responsiveness</p>
+              <p>Mobile first fluid grid</p>
+              <p>Fits any screen sizes</p>
+              <p>PC Tablet and Mobile</p>
+            </div>
+          </div>
+        </div>
+          
+         
+            
+        </div>
                             
+        <div class="w3-row"> <!-- the m6 refers to value of column out of 12. remember. m after col in w3 sets value of the column and means its optimized for medium screens. s is small screens, l is big.-->
     </div>
-    <div class="w3-row"> <!-- the m6 refers to value of column out of 12. remember. m after col in w3 sets value of the column and means its optimized for medium screens. s is small screens, l is big.-->
+      <div class="w3-container">
         <div class="w3-col m4 w3-center w3-padding-large">
         <img src= "suitFlower.jpg" class="w3-round w3-image w3-opacity w3-sepia w3-center" width="250"height="200">
+        <div class="img-text">About me</div>
  
         </div>
         <div class="w3-col m8 w3-padding-large">
           <div class="w3-container w3-dark-grey"></div>
           
-          <p>Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odit eos
-            delectus eius in blanditiis eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel
-            repellat voluptates!
+          <p id="aboutMe">
           </p>
          <div class="w3-container w3-dark-grey"></div>
-          <!-- <img src="bush.jpg" class="w3-round w3-image w3-opacity w3-sepia w3-center w3-padding-32" width="400" height="150"> --> 
     </div>
     </div>
   <div class="bgimg-3 w3-display-container w3-hover-opacity-min">
-        <div class="w3-display-topleft"></div>
-        <span class="w3-xxlarge w3-text-black w3-display-topleft w3-wide">Contact Me</span>
-    <div class="w3-col m4 w3-center w3-padding-large">
-      <!-- <div class="w3-dark-grey">
-        <div class="w3-container w3-padding-small w3-light-grey w3-center" style="width:50%"></div>
-        
+        <!-- <div class="w3-display-topleft"></div> -->
+        <!-- <span class="w3-xxlarge w3-text-white w3-display-topmiddle w3-padding-large">Contact Me</span>
+    <div class="w3-col m6 w3-padding-large"> -->
+     <!-- <div class="w3-dark-grey">
+        <div class="w3-container w3-padding-small w3-light-grey w3-center" style="width:50%"></div> -->
+
+      <!-- <div class= "w3-content w3-container ">
+        <div class="w3-medium w3-section" id="contactJump">
+          <div class="w3-half">
+            <div class="w3-row" style="width:50px"><i class="w3-xlarge fa fa-user" id="contactIcon"></i></div>
+            <input class="w3-input w3-animate-input" style="width:40%" type="test"placeholder="First Name">
+            <div class="w3-row" style="width:50px"><i class="w3-xlarge fa fa-user" id="contactIcon"></i></div>
+            <input class="w3-input w3-animate-input"style="width:40%" type="test"placeholder="Last Name">
+            <div class="w3-row" style="width:50px"><i class="w3-xlarge fa fa-envelope-o" id="contactIcon"></i></div>
+            <input class="w3-input w3-animate-input"style="width:40%"type="test"placeholder="Email">
+              <div class="w3-row" style="width:50px"><i class="w3-xlarge fa fa-pencil" id="contactIcon"></i></div>
+            <input class="w3-input w3-animate-input" style="width:40%" type="test"placeholder="message">
+            
+            <button class="w3-button w3-block w3-section w3-orange w3-ripple w3-padding w3-display-bottom">Send</button>
+            
+          </div>
+        </a>
       </div> -->
-      <!-- 2/9/23 START HERE WORKING ON CONTACT FORM FINISH-->
-      <div class= "w3-content w3-container w3-padding-64">
-        <div class="w3-xlarge w3-section w3-center" id="contactJump">
-          <a href="https://www.linkedin.com/in/isaac-a-anderson/">
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-        <div class="w3-half">
-          <input class="w3-input w3-border" type="test">
-          <input class="w3-input w3-border" type="test">
-          <input class="w3-input w3-border" type="test">
+      <form action="/action_page.php" class="w3-container w3-card-4 w3-text-red"style="width:50%">
+        <h2 class="w3-center">Contact</h2>
+      
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user" id="contactIcon"></i></div>
+          <div class="w3-rest">
+            <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+          </div>
         </div>
-          </a>
+      
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"id="contactIcon"></i></div>
+          <div class="w3-rest">
+            <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+          </div>
         </div>
+      
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"id="contactIcon"></i></div>
+          <div class="w3-rest">
+            <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+          </div>
+        </div>
+      
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"id="contactIcon"></i></div>
+          <div class="w3-rest">
+            <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+          </div>
+        </div>
+      
+        <div class="w3-row w3-section">
+          <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"id="contactIcon"></i></div>
+          <div class="w3-rest">
+            <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+          </div>
+        </div>
+      
+        <button class="w3-button w3-mobile w3-block w3-section w3-red w3-ripple w3-padding">Send</button>
+      
+      </form>
+      <a href="https://www.linkedin.com/in/isaac-a-anderson/">
+        <i class="fa fa-linkedin w3-hover-opacity w3-xxlarge w3-display-topright w3-padding-32"></i>
+      </div>
+      </div>
       </div>
       
   
