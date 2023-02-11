@@ -77,6 +77,6 @@ $(() => {
 
 	img.addEventListener('click', function () {
 		content.innerHTML =
-			'Non consequuntur exercitationem qui dolore sapiente quo voluptas repudiandae qui iusto odi eaque et error nemo? Ex consequatur dolorum aut quis assumenda et placeat aliquam vel';
+			'Hi there! I\'m a Los Angeles based aspiring Full stack Engineer with 8 years of experience in freelance film production and supervision. I\'ve honed skills in communication, coordination, and problem-solving throughout my career. My next step is utilizing my skills and experience to branch into the world of software engineering.';
 	});
 });

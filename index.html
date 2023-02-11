@@ -11,7 +11,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
-    
+  #img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+  }
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
@@ -149,7 +156,7 @@ body, html {
     </div>
     <div class="bgimg-2 w3-display-container w3-hover-opacity-min">
         <div class="w3-display-middle"></div>
-        <span class="w3-xxlarge w3-text-black w3-wide">Placeholder image of my dog</span>
+        <span class="w3-xxlarge w3-text-black w3-wide "><i class="fa fa-paper-plane"></i></span>
         
     </div>
 
@@ -160,7 +167,7 @@ body, html {
           <div class="w3-third">
           <div class="w3-card w3-container w3-hover-opacity">
           <h5>Skills</h5>
-          <i class="fa fa-desktop w3-margin-bottom" style="font-size:30px"></i>
+          <i class="fa fa-desktop w3-margin-bottom w3-animate-fading" style="font-size:30px"></i>
           <ul class="w3 ul" style="list-style-type: none; padding:0%">
             <li>HTML|CSS|Javascript</li>
             <li>Jquery</li>
@@ -175,24 +182,23 @@ body, html {
           </div>
           <div class="w3-third">
           <div class="w3-card w3-container w3-hover-opacity">
-            <h3>Projects</h3>
-            <i class="fa fa-desktop w3-margin-bottom" style="font-size:30px"></i>
+            <h5>Projects</h5>
+            <i class="fa fa-bomb w3-margin-bottom w3-animate-fading" style="font-size:30px"></i>
             <ul class="w3 ul" style="list-style-type: none; padding:0%">
-            <li><a href="landscaper/index copy.html">Landscaper</script></li>
-            <li></li>
-            <li>Fits any screen sizes</li>
-            <li>PC Tablet and Mobile</li>
+            <li><a href="landscaperIndex.html">Landscaper</a></li>
+            <li><a href="../homework/index.html">Hobbit</a></li>
+            <li>More to come</li>
+        
           </div>
           </div>
           <div class="w3-third">
             <div class="w3-card w3-container w3-hover-opacity">
-              <h3>Education</h3>
-              <i class="fa fa-desktop w3-margin-bottom" style="font-size:30px"></i>
+              <h5>Education</h5>
+              <i class="fa fa-gear w3-margin-bottom w3-animate-fading" style="font-size:30px"></i>
               <ul class="w3 ul" style="list-style-type: none; padding:0%">
-                <li>Built-in responsiveness</li>
-                <li>Mobile first fluid grid</li>
-                <li>Fits any screen sizes</li>
-                <li>PC Tablet and Mobile</li>
+                <li>General Assembly | Software Engineering Immersive | (2023)</li>
+                <li>Nebraska Wesleyan University | (2014)</li>
+               
             </div>
           </div>
         </div>
@@ -205,7 +211,7 @@ body, html {
     </div>
       <div class="w3-container">
         <div class="w3-col m4 w3-center w3-padding-large">
-        <img src= "suitFlower.jpg" class="w3-round w3-image w3-opacity w3-sepia w3-center" width="250"height="200">
+        <img src= "suitFlower.jpg" class="w3-round w3-image w3-opacity w3-sepia w3-center" id="aboutMeImage" width="250"height="200">
         <div class="img-text">About me</div>
  
         </div>
