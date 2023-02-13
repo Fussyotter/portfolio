@@ -77,6 +77,6 @@ $(() => {
 
 	img.addEventListener('click', function () {
 		content.innerHTML =
-			'Hi there! I\'m a Los Angeles based aspiring Full stack Engineer with 8 years of experience in freelance film production and supervision. I\'ve honed skills in communication, coordination, and problem-solving throughout my career. My next step is utilizing my skills and experience to branch into the world of software engineering.';
+			"Hi there! I'm a Los Angeles based aspiring Full stack Engineer with 8 years of experience in freelance film production and supervision. I've honed skills in communication, coordination, and problem-solving throughout my career. My next step is utilizing my skills and experience to branch into the world of software engineering.";
 	});
 });
